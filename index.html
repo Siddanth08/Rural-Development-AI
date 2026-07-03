@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grameen Vikas AI — Rural Development Portal</title>
+  <meta name="description" content="India's smartest Rural Development AI Portal covering agriculture, government schemes, SHGs, water conservation, and sustainable village development." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== PRELOADER ===== -->
+  <div id="preloader">
+    <div class="loader-content">
+      <div class="loader-icon">🌾</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+      <p>Loading Grameen Vikas AI...</p>
+    </div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-icon">🌿</span>
+        <span class="logo-text">Grameen <span class="accent">Vikas</span> AI</span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#pillars" class="nav-link">Key Areas</a></li>
+        <li><a href="#schemes" class="nav-link">Schemes</a></li>
+        <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+        <li><a href="#shg" class="nav-link">SHG Project</a></li>
+        <li><a href="#ai" class="nav-link">Ask AI</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg-video">
+      <div class="hero-overlay"></div>
+      <img src="hero_bg.jpg" class="hero-bg-img" alt="Indian Village" onerror="this.style.display='none'" />
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge animate-fade-up">🏅 India's #1 Rural Development AI Portal</div>
+      <h1 class="hero-title animate-fade-up delay-1">
+        Empowering <span class="gradient-text">Rural India</span><br/>Through Smart Development
+      </h1>
+      <p class="hero-subtitle animate-fade-up delay-2">
+        From farm to future — explore agriculture, government schemes, women empowerment,
+        water conservation, and sustainable village planning all in one place.
+      </p>
+      <div class="hero-btns animate-fade-up delay-3">
+        <a href="#pillars" class="btn btn-primary">Explore Portal <i class="fas fa-arrow-right"></i></a>
+        <a href="#ai" class="btn btn-outline">Ask AI Now <i class="fas fa-robot"></i></a>
+      </div>
+      <div class="hero-stats animate-fade-up delay-4">
+        <div class="stat-item"><span class="stat-num" data-target="6.5">0</span><span>Lakh+ Villages</span></div>
+        <div class="stat-item"><span class="stat-num" data-target="20">0</span><span>Govt Schemes</span></div>
+        <div class="stat-item"><span class="stat-num" data-target="83">0</span><span>Crore Rural People</span></div>
+        <div class="stat-item"><span class="stat-num" data-target="67">0</span><span>% India is Rural</span></div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll to Explore</span>
+      <div class="scroll-arrow"><i class="fas fa-chevron-down"></i></div>
+    </div>
+  </section>
+
+  <!-- ===== TICKER ===== -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>🌾 PM-KISAN: ₹6000/year for farmers</span>
+      <span>💧 Jal Jeevan Mission: Tap water to every home</span>
+      <span>🏠 PMAY-G: Free houses for BPL families</span>
+      <span>👩 DAY-NRLM: Empowering Women SHGs</span>
+      <span>☀️ PM Kusum: Solar pumps for agriculture</span>
+      <span>🌿 Soil Health Card: Know your soil's health</span>
+      <span>🛣️ PMGSY: All-weather roads for villages</span>
+      <span>🏥 Ayushman Bharat: ₹5 lakh free health cover</span>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">About This Portal</span>
+        <h2 class="section-title">What is <span class="accent">Grameen Vikas AI?</span></h2>
+        <p class="section-subtitle">A comprehensive digital platform dedicated to accelerating rural development across India</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass-card animate-slide-left">
+          <div class="about-icon">🎯</div>
+          <h3>Our Mission</h3>
+          <p>To bridge the knowledge gap between rural communities and government resources by providing accurate, actionable, and easy-to-understand guidance on rural development.</p>
+        </div>
+        <div class="about-card glass-card animate-slide-right">
+          <div class="about-icon">👥</div>
+          <h3>Who We Serve</h3>
+          <ul>
+            <li>👨‍🌾 Farmers & Rural Citizens</li>
+            <li>🎓 Students & Researchers</li>
+            <li>🏢 NGOs & Government Officials</li>
+            <li>💼 Rural Entrepreneurs</li>
+            <li>👩 Women & SHG Members</li>
+          </ul>
+        </div>
+        <div class="about-card glass-card animate-slide-left">
+          <div class="about-icon">🤖</div>
+          <h3>AI-Powered Guidance</h3>
+          <p>Our Rural Development AI assistant provides real-time answers on farming techniques, government schemes, entrepreneurship, and sustainable practices — 24/7.</p>
+        </div>
+        <div class="about-card glass-card animate-slide-right">
+          <div class="about-icon">📊</div>
+          <h3>Data-Driven Insights</h3>
+          <p>Access live statistics, scheme performance data, and rural indicators from across India to make informed decisions for village development planning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KEY PILLARS ===== -->
+  <section id="pillars" class="pillars section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Core Focus Areas</span>
+        <h2 class="section-title">7 Pillars of <span class="accent">Rural Development</span></h2>
+        <p class="section-subtitle">Click any pillar to explore in depth</p>
+      </div>
+      <div class="pillars-grid">
+
+        <div class="pillar-card" id="pillar-agri" onclick="openModal('agri')">
+          <div class="pillar-icon-wrap" style="background: linear-gradient(135deg,#2d6a4f,#52b788)">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h3>Agriculture & Farming</h3>
+          <p>Organic farming, crop selection, smart irrigation, soil health, and modern farming techniques.</p>
+          <div class="pillar-tags">
+            <span>Organic</span><span>Smart Farming</span><span>Irrigation</span>
+          </div>
+          <button class="pillar-btn">Explore <i class="fas fa-arrow-right"></i></button>
+        </div>
+
+        <div class="pillar-card" id="pillar-shg" onclick="openModal('shg')">
+          <div class="pillar-icon-wrap" style="background: linear-gradient(135deg,#b5179e,#f72585)">
+            <i class="fas fa-people-group"></i>
+          </div>
+          <h3>Women & SHG Empowerment</h3>
+          <p>Self Help Groups, microfinance, women entrepreneurship, skill development and leadership.</p>
+          <div class="pillar-tags">
+            <span>SHGs</span><span>Microfinance</span><span>Entrepreneurship</span>
+          </div>
+          <button class="pillar-btn">Explore <i class="fas fa-arrow-right"></i></button>
+        </div>
+
+        <div class="pillar-card" id="pillar-water" onclick="openModal('water')">
+          <div class="pillar-icon-wrap" style="background: linear-gradient(135deg,#0077b6,#00b4d8)">
+            <i class="fas fa-droplet"></i>
+          </div>
+          <h3>Water Conservation</h3>
+          <p>Rainwater harvesting, check dams, farm ponds, drip irrigation and groundwater recharge.</p>
+          <div class="pillar-tags">
+            <span>Rainwater</span><span>Drip Irrigation</span><span>Ponds</span>
+          </div>
+          <button class="pillar-btn">Explore <i class="fas fa-arrow-right"></i></button>
+        </div>
+
+        <div class="pillar-card" id="pillar-energy" onclick="openModal('energy')">
+          <div class="pillar-icon-wrap" style="background: linear-gradient(135deg,#f77f00,#fcbf49)">
+            <i class="fas fa-solar-panel"></i>
+          </div>
+          <h3>Renewable Energy</h3>
+          <p>Solar power, biogas plants, wind energy and sustainable energy solutions for villages.</p>
+          <div class="pillar-tags">
+            <span>Solar</span><span>Biogas</span><span>Green Energy</span>
+          </div>
+          <button class="pillar-btn">Explore <i class="fas fa-arrow-right"></i></button>
+        </div>
+
+        <div class="pillar-card" id="pillar-health" onclick="openModal('health')">
+          <div class="pillar-icon-wrap" style="background: linear-gradient(135deg,#d62828,#f07167)">
+            <i class="fas fa-heart-pulse"></i>
+          </div>
+          <h3>Rural Healthcare</h3>
+          <p>Ayushman Bharat, ASHA workers, primary health centers, nutrition and sanitation.</p>
+          <div class="pillar-tags">
+            <span>Ayushman</span><span>Nutrition</span><span>Sanitation</span>
+          </div>
+          <button class="pillar-btn">Explore <i class="fas fa-arrow-right"></i></button>
+        </div>
+
+        <div class="pillar-card" id="pillar-digital" onclick="openModal('digital')">
+          <div class="pillar-icon-wrap" style="background: linear-gradient(135deg,#3a0ca3,#7209b7)">
+            <i class="fas fa-wifi"></i>
+          </div>
+          <h3>Digital Rural India</h3>
+          <p>Digital literacy, e-governance, Common Service Centres, online scheme applications.</p>
+          <div class="pillar-tags">
+            <span>Digital India</span><span>CSC</span><span>E-Governance</span>
+          </div>
+          <button class="pillar-btn">Explore <i class="fas fa-arrow-right"></i></button>
+        </div>
+
+        <div class="pillar-card" id="pillar-edu" onclick="openModal('edu')">
+          <div class="pillar-icon-wrap" style="background: linear-gradient(135deg,#1b4332,#40916c)">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3>Rural Education</h3>
+          <p>Scholarships, mid-day meals, digital classrooms, vocational training and Skill India.</p>
+          <div class="pillar-tags">
+            <span>Skill India</span><span>Scholarships</span><span>Vocational</span>
+          </div>
+          <button class="pillar-btn">Explore <i class="fas fa-arrow-right"></i></button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GOVERNMENT SCHEMES ===== -->
+  <section id="schemes" class="schemes section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Government of India</span>
+        <h2 class="section-title">Major <span class="accent">Welfare Schemes</span></h2>
+        <p class="section-subtitle">Find the right scheme for you — filter by category</p>
+      </div>
+      <div class="scheme-filters">
+        <button class="filter-btn active" data-filter="all">All Schemes</button>
+        <button class="filter-btn" data-filter="agriculture">Agriculture</button>
+        <button class="filter-btn" data-filter="housing">Housing</button>
+        <button class="filter-btn" data-filter="employment">Employment</button>
+        <button class="filter-btn" data-filter="women">Women</button>
+        <button class="filter-btn" data-filter="energy">Energy</button>
+        <button class="filter-btn" data-filter="health">Health</button>
+      </div>
+      <div class="schemes-grid" id="schemesGrid">
+
+        <div class="scheme-card" data-category="agriculture">
+          <div class="scheme-header" style="background:linear-gradient(135deg,#2d6a4f,#52b788)">
+            <i class="fas fa-rupee-sign"></i>
+            <span class="scheme-tag">Agriculture</span>
+          </div>
+          <div class="scheme-body">
+            <h3>PM-KISAN</h3>
+            <p>₹6,000/year income support to all landholding farmer families in 3 equal installments.</p>
+            <div class="scheme-details">
+              <span><i class="fas fa-check-circle"></i> All landholding farmers</span>
+              <span><i class="fas fa-rupee-sign"></i> ₹2,000 per installment</span>
+              <span><i class="fas fa-calendar"></i> 3 installments/year</span>
+            </div>
+            <button class="scheme-btn" onclick="openSchemeModal('pmkisan')">View Full Details</button>
+          </div>
+        </div>
+
+        <div class="scheme-card" data-category="employment">
+          <div class="scheme-header" style="background:linear-gradient(135deg,#7b2d8b,#c77dff)">
+            <i class="fas fa-hammer"></i>
+            <span class="scheme-tag">Employment</span>
+          </div>
+          <div class="scheme-body">
+            <h3>MGNREGA</h3>
+            <p>100 days of guaranteed wage employment per year to rural households.</p>
+            <div class="scheme-details">
+              <span><i class="fas fa-check-circle"></i> Any rural adult</span>
+              <span><i class="fas fa-rupee-sign"></i> State-wise wage rates</span>
+              <span><i class="fas fa-calendar"></i> 100 days/year</span>
+            </div>
+            <button class="scheme-btn" onclick="openSchemeModal('mgnrega')">View Full Details</button>
+          </div>
+        </div>
+
+        <div class="scheme-card" data-category="housing">
+          <div class="scheme-header" style="background:linear-gradient(135deg,#e63946,#f4a261)">
+            <i class="fas fa-house"></i>
+            <span class="scheme-tag">Housing</span>
+          </div>
+          <div class="scheme-body">
+            <h3>PMAY-Gramin</h3>
+            <p>Financial assistance to rural BPL families for construction of pucca houses.</p>
+            <div class="scheme-details">
+              <span><i class="fas fa-check-circle"></i> BPL families</span>
+              <span><i class="fas fa-rupee-sign"></i> ₹1.2–1.3 Lakh</span>
+              <span><i class="fas fa-calendar"></i> One-time benefit</span>
+            </div>
+            <button class="scheme-btn" onclick="openSchemeModal('pmayg')">View Full Details</button>
+          </div>
+        </div>
+
+        <div class="scheme-card" data-category="agriculture">
+          <div class="scheme-header" style="background:linear-gradient(135deg,#1d3557,#457b9d)">
+            <i class="fas fa-umbrella"></i>
+            <span class="scheme-tag">Agriculture</span>
+          </div>
+          <div class="scheme-body">
+            <h3>PM Fasal Bima Yojana</h3>
+            <p>Crop insurance at minimal premium to protect farmers from natural calamities and crop losses.</p>
+            <div class="scheme-details">
+              <span><i class="fas fa-check-circle"></i> All farmers</span>
+              <span><i class="fas fa-rupee-sign"></i> Low premium (1.5–5%)</span>
+              <span><i class="fas fa-calendar"></i> Seasonal</span>
+            </div>
+            <button class="scheme-btn" onclick="openSchemeModal('pmfby')">View Full Details</button>
+          </div>
+        </div>
+
+        <div class="scheme-card" data-category="women">
+          <div class="scheme-header" style="background:linear-gradient(135deg,#b5179e,#f72585)">
+            <i class="fas fa-people-group"></i>
+            <span class="scheme-tag">Women</span>
+          </div>
+          <div class="scheme-body">
+            <h3>DAY-NRLM</h3>
+            <p>National Rural Livelihoods Mission to form SHGs and provide credit for micro-enterprises.</p>
+            <div class="scheme-details">
+              <span><i class="fas fa-check-circle"></i> Rural poor women</span>
+              <span><i class="fas fa-rupee-sign"></i> CIF + Bank loans</span>
+              <span><i class="fas fa-calendar"></i> Ongoing</span>
+            </div>
+            <button class="scheme-btn" onclick="openSchemeModal('daynrlm')">View Full Details</button>
+          </div>
+        </div>
+
+        <div class="scheme-card" data-category="energy">
+          <div class="scheme-header" style="background:linear-gradient(135deg,#f77f00,#fcbf49)">
+            <i class="fas fa-solar-panel"></i>
+            <span class="scheme-tag">Energy</span>
+          </div>
+          <div class="scheme-body">
+            <h3>PM Kusum Scheme</h3>
+            <p>Solar pumps and grid-connected solar power plants for farmers to reduce electricity bills.</p>
+            <div class="scheme-details">
+              <span><i class="fas fa-check-circle"></i> All farmers</span>
+              <span><i class="fas fa-rupee-sign"></i> 60–90% subsidy</span>
+              <span><i class="fas fa-calendar"></i> Ongoing</span>
+            </div>
+            <button class="scheme-btn" onclick="openSchemeModal('pmkusum')">View Full Details</button>
+          </div>
+        </div>
+
+        <div class="scheme-card" data-category="health">
+          <div class="scheme-header" style="background:linear-gradient(135deg,#d62828,#f07167)">
+            <i class="fas fa-hospital"></i>
+            <span class="scheme-tag">Health</span>
+          </div>
+          <div class="scheme-body">
+            <h3>Ayushman Bharat</h3>
+            <p>₹5 lakh annual health cover for secondary and tertiary hospitalisation to poor families.</p>
+            <div class="scheme-details">
+              <span><i class="fas fa-check-circle"></i> SECC listed families</span>
+              <span><i class="fas fa-rupee-sign"></i> ₹5 Lakh/year</span>
+              <span><i class="fas fa-calendar"></i> Annual</span>
+            </div>
+            <button class="scheme-btn" onclick="openSchemeModal('ayushman')">View Full Details</button>
+          </div>
+        </div>
+
+        <div class="scheme-card" data-category="agriculture">
+          <div class="scheme-header" style="background:linear-gradient(135deg,#386641,#6a994e)">
+            <i class="fas fa-credit-card"></i>
+            <span class="scheme-tag">Agriculture</span>
+          </div>
+          <div class="scheme-body">
+            <h3>Kisan Credit Card</h3>
+            <p>Affordable short-term credit for farmers to meet agricultural needs at low interest rates.</p>
+            <div class="scheme-details">
+              <span><i class="fas fa-check-circle"></i> All farmers/fishermen</span>
+              <span><i class="fas fa-rupee-sign"></i> Up to ₹3 Lakh at 4%</span>
+              <span><i class="fas fa-calendar"></i> Annual renewal</span>
+            </div>
+            <button class="scheme-btn" onclick="openSchemeModal('kcc')">View Full Details</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LIVE DASHBOARD ===== -->
+  <section id="dashboard" class="dashboard section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Live Data</span>
+        <h2 class="section-title">Rural India <span class="accent">Dashboard</span></h2>
+        <p class="section-subtitle">Key development indicators across rural India</p>
+      </div>
+      <div class="dashboard-grid">
+        <div class="dash-card">
+          <div class="dash-icon" style="color:#52b788"><i class="fas fa-users"></i></div>
+          <div class="dash-info">
+            <span class="dash-value counter" data-target="12.7">0</span><span class="dash-unit">Crore</span>
+            <span class="dash-label">SHG Members Nationwide</span>
+            <div class="dash-bar"><div class="dash-fill" style="width:78%;background:#52b788"></div></div>
+          </div>
+        </div>
+        <div class="dash-card">
+          <div class="dash-icon" style="color:#00b4d8"><i class="fas fa-faucet"></i></div>
+          <div class="dash-info">
+            <span class="dash-value counter" data-target="74">0</span><span class="dash-unit">%</span>
+            <span class="dash-label">Rural Households with Tap Water</span>
+            <div class="dash-bar"><div class="dash-fill" style="width:74%;background:#00b4d8"></div></div>
+          </div>
+        </div>
+        <div class="dash-card">
+          <div class="dash-icon" style="color:#fcbf49"><i class="fas fa-solar-panel"></i></div>
+          <div class="dash-info">
+            <span class="dash-value counter" data-target="99.9">0</span><span class="dash-unit">%</span>
+            <span class="dash-label">Rural Electrification Coverage</span>
+            <div class="dash-bar"><div class="dash-fill" style="width:99%;background:#fcbf49"></div></div>
+          </div>
+        </div>
+        <div class="dash-card">
+          <div class="dash-icon" style="color:#f72585"><i class="fas fa-house"></i></div>
+          <div class="dash-info">
+            <span class="dash-value counter" data-target="2.95">0</span><span class="dash-unit">Crore</span>
+            <span class="dash-label">Houses Built under PMAY-G</span>
+            <div class="dash-bar"><div class="dash-fill" style="width:65%;background:#f72585"></div></div>
+          </div>
+        </div>
+        <div class="dash-card">
+          <div class="dash-icon" style="color:#f4a261"><i class="fas fa-road"></i></div>
+          <div class="dash-info">
+            <span class="dash-value counter" data-target="7.29">0</span><span class="dash-unit">Lakh km</span>
+            <span class="dash-label">Roads Built under PMGSY</span>
+            <div class="dash-bar"><div class="dash-fill" style="width:82%;background:#f4a261"></div></div>
+          </div>
+        </div>
+        <div class="dash-card">
+          <div class="dash-icon" style="color:#7209b7"><i class="fas fa-laptop"></i></div>
+          <div class="dash-info">
+            <span class="dash-value counter" data-target="5.45">0</span><span class="dash-unit">Lakh</span>
+            <span class="dash-label">Common Service Centres (CSCs)</span>
+            <div class="dash-bar"><div class="dash-fill" style="width:90%;background:#7209b7"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SHG PROJECT SECTION ===== -->
+  <section id="shg" class="shg-project section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Live Project Report</span>
+        <h2 class="section-title">SHG <span class="accent">Spices Processing Unit</span></h2>
+        <p class="section-subtitle">A complete, ready-to-implement micro-enterprise project for rural women</p>
+      </div>
+      <div class="project-layout">
+        <div class="project-info">
+          <div class="project-overview glass-card">
+            <h3><i class="fas fa-file-alt"></i> Project Overview</h3>
+            <table class="project-table">
+              <tr><td>Project Name</td><td>SHG Spices Processing & Packaging Unit</td></tr>
+              <tr><td>Product</td><td>Turmeric, Coriander, Cumin, Chilli Powder</td></tr>
+              <tr><td>Total Investment</td><td>₹1,50,000</td></tr>
+              <tr><td>Monthly Revenue</td><td>₹60,000 (est.)</td></tr>
+              <tr><td>Monthly Profit</td><td>₹15,000 (est.)</td></tr>
+              <tr><td>Payback Period</td><td>10–12 months</td></tr>
+              <tr><td>Members Required</td><td>10–15 women</td></tr>
+            </table>
+          </div>
+          <div class="project-steps glass-card">
+            <h3><i class="fas fa-list-check"></i> Step-by-Step Plan</h3>
+            <div class="steps">
+              <div class="step completed"><div class="step-num">1</div><div><strong>Form SHG</strong><p>Register 10–15 women, open bank account, begin monthly savings</p></div></div>
+              <div class="step completed"><div class="step-num">2</div><div><strong>Apply for CIF/Loan</strong><p>Request Community Investment Fund via Village Organization (VO)</p></div></div>
+              <div class="step active"><div class="step-num">3</div><div><strong>Get FSSAI Registration</strong><p>Apply online at fssai.gov.in for basic food business registration</p></div></div>
+              <div class="step"><div class="step-num">4</div><div><strong>Purchase Equipment</strong><p>Buy pulverizer, sealing machine, weighing scale</p></div></div>
+              <div class="step"><div class="step-num">5</div><div><strong>Launch & Market</strong><p>Start with local households and nearby markets, focus on purity</p></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="project-charts">
+          <div class="chart-card glass-card">
+            <h3><i class="fas fa-chart-pie"></i> Cost Breakdown</h3>
+            <canvas id="costChart" width="300" height="300"></canvas>
+            <div class="chart-legend" id="costLegend"></div>
+          </div>
+          <div class="chart-card glass-card">
+            <h3><i class="fas fa-chart-line"></i> 6-Month Revenue Forecast</h3>
+            <canvas id="revenueChart" width="300" height="200"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AI CHAT SECTION ===== -->
+  <section id="ai" class="ai-section section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">AI Assistant</span>
+        <h2 class="section-title">Ask <span class="accent">Rural Dev AI</span></h2>
+        <p class="section-subtitle">Get instant answers on farming, schemes, SHGs, and more</p>
+      </div>
+      <div class="ai-layout">
+        <div class="quick-questions">
+          <h3>💡 Quick Questions</h3>
+          <button class="quick-btn" onclick="askQuestion('What is organic farming and its benefits?')">🌿 What is organic farming?</button>
+          <button class="quick-btn" onclick="askQuestion('How to apply for PM-KISAN scheme?')">💰 How to apply for PM-KISAN?</button>
+          <button class="quick-btn" onclick="askQuestion('How do SHGs get bank loans under DAY-NRLM?')">👩 SHG bank loans under NRLM?</button>
+          <button class="quick-btn" onclick="askQuestion('What are water conservation techniques for villages?')">💧 Water conservation methods?</button>
+          <button class="quick-btn" onclick="askQuestion('What crops are best for black soil?')">🌾 Best crops for black soil?</button>
+          <button class="quick-btn" onclick="askQuestion('How does MGNREGA work?')">🔨 How does MGNREGA work?</button>
+          <button class="quick-btn" onclick="askQuestion('What is drip irrigation and how to set it up?')">🚿 What is drip irrigation?</button>
+          <button class="quick-btn" onclick="askQuestion('How to start a dairy farming unit in a village?')">🐄 Start a dairy farm?</button>
+        </div>
+        <div class="ai-chat-box">
+          <div class="chat-header">
+            <div class="ai-avatar">🤖</div>
+            <div>
+              <strong>Rural Dev AI</strong>
+              <span class="online-dot">● Online</span>
+            </div>
+          </div>
+          <div class="chat-messages" id="chatMessages">
+            <div class="chat-msg bot-msg">
+              <div class="msg-avatar">🌾</div>
+              <div class="msg-content">
+                <p>Namaste! 🙏 I am <strong>Rural Dev AI</strong>, your expert assistant for all rural development topics.</p>
+                <p>Ask me about farming, government schemes, SHGs, water conservation, or anything related to rural development!</p>
+              </div>
+            </div>
+          </div>
+          <div class="chat-input-wrap">
+            <input type="text" id="chatInput" placeholder="Ask about farming, schemes, SHGs..." onkeypress="handleKey(event)" />
+            <button onclick="sendMessage()" id="sendBtn"><i class="fas fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SDG SECTION ===== -->
+  <section class="sdg-section section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">United Nations</span>
+        <h2 class="section-title">SDGs & <span class="accent">Rural India</span></h2>
+        <p class="section-subtitle">How rural development aligns with UN Sustainable Development Goals</p>
+      </div>
+      <div class="sdg-grid">
+        <div class="sdg-card" style="--sdg-color:#e5243b"><span class="sdg-num">SDG 1</span><p>No Poverty</p></div>
+        <div class="sdg-card" style="--sdg-color:#dda63a"><span class="sdg-num">SDG 2</span><p>Zero Hunger</p></div>
+        <div class="sdg-card" style="--sdg-color:#4c9f38"><span class="sdg-num">SDG 3</span><p>Good Health</p></div>
+        <div class="sdg-card" style="--sdg-color:#c5192d"><span class="sdg-num">SDG 4</span><p>Quality Education</p></div>
+        <div class="sdg-card" style="--sdg-color:#ff3a21"><span class="sdg-num">SDG 5</span><p>Gender Equality</p></div>
+        <div class="sdg-card" style="--sdg-color:#26bde2"><span class="sdg-num">SDG 6</span><p>Clean Water</p></div>
+        <div class="sdg-card" style="--sdg-color:#fcc30b"><span class="sdg-num">SDG 7</span><p>Clean Energy</p></div>
+        <div class="sdg-card" style="--sdg-color:#a21942"><span class="sdg-num">SDG 8</span><p>Decent Work</p></div>
+        <div class="sdg-card" style="--sdg-color:#fd6925"><span class="sdg-num">SDG 11</span><p>Smart Villages</p></div>
+        <div class="sdg-card" style="--sdg-color:#3f7e44"><span class="sdg-num">SDG 13</span><p>Climate Action</p></div>
+        <div class="sdg-card" style="--sdg-color:#0a97d9"><span class="sdg-num">SDG 15</span><p>Life on Land</p></div>
+        <div class="sdg-card" style="--sdg-color:#19486a"><span class="sdg-num">SDG 17</span><p>Partnerships</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <span class="logo-icon">🌿</span>
+            <span class="logo-text">Grameen <span class="accent">Vikas</span> AI</span>
+          </div>
+          <p>Empowering rural communities through knowledge, technology, and sustainable development.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#pillars">Key Areas</a></li>
+            <li><a href="#schemes">Government Schemes</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#ai">Ask AI</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Key Schemes</h4>
+          <ul>
+            <li><a href="#">PM-KISAN</a></li>
+            <li><a href="#">MGNREGA</a></li>
+            <li><a href="#">PMAY-Gramin</a></li>
+            <li><a href="#">Jal Jeevan Mission</a></li>
+            <li><a href="#">Ayushman Bharat</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <p><i class="fas fa-envelope"></i> grameenvikas@ruraldev.in</p>
+          <p><i class="fas fa-phone"></i> 1800-XXX-XXXX (Toll Free)</p>
+          <p><i class="fas fa-map-marker-alt"></i> Ministry of Rural Development, New Delhi</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Grameen Vikas AI | Rural Development Portal | Designed for Hackathon 2026 🏆</p>
+        <p>Data sourced from Ministry of Rural Development, NITI Aayog, and Government of India</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== MODALS ===== -->
+  <div id="pillarModal" class="modal-overlay" onclick="closeModal()">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <div id="schemeModal" class="modal-overlay" onclick="closeSchemeModal()">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeSchemeModal()"><i class="fas fa-times"></i></button>
+      <div id="schemeModalContent"></div>
+    </div>
+  </div>
+
+  <!-- Scroll to top -->
+  <button id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
